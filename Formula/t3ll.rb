@@ -1,17 +1,17 @@
-# Generated on 2023.08.01 13:39:33
+# Generated on 2023.08.17 11:00:34
 # Do not edit manually
 
 class T3ll < Formula
   desc "Simple tool for editing TYPO3 localization files"
   homepage "https://github.com/garfieldius/t3ll/"
-  url "https://github.com/garfieldius/t3ll/archive/v0.7.2.tar.gz"
-  sha256 "bc295d116c314f462f14194b8e0bfcb9de776ec19a0ecaaf7be9ac1c95bec2e6"
+  url "https://github.com/garfieldius/t3ll/archive/v0.7.3.tar.gz"
+  sha256 "56989b08e76ed9e2c1eac1ccfc0f947bdc9e5ea0c910e59df4cf89d0f45c6d97"
 
   bottle do
-    root_url "https://github.com/garfieldius/t3ll/releases/download/v0.7.2/"
-    sha256 arm64_big_sur: "1375327b6a6c6c6f6a8bf4f8c84b70c12b355797a46453de4fe46c1f013be3af"
-    sha256 sierra:   "0b64c828a53c3c2cecd8a87b290d726c12d508e12ecc48b08855e85e66d6f303"
-    sha256 x86_64_linux:  "cf14c36b35b328b315c08ed437913d21219e8647c6483d24aa3a0b1622b0f7ec"
+    root_url "https://github.com/garfieldius/t3ll/releases/download/v0.7.3/"
+    sha256 arm64_big_sur: "3d448d76bd642e3b75fae9c409fe136bd3231a5dd93764f4fdbef0232117e5f1"
+    sha256 sierra:   "ff42862ec24cec0028c170e5fa38580c3372e4e1376da08b022900ba5fc68a86"
+    sha256 x86_64_linux:  "bda02a1d4e5ab9fde47a943b976bd683d7f3cfe35119e81ab802199415cc31f0"
   end
 
   depends_on "go"   => :build
